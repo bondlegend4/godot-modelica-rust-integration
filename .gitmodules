@@ -1,3 +1,6 @@
-[submodule "modelica-rust-ffi"]
-	path = modelica-rust-ffi
-	url = https://github.com/bondlegend4/modelica-rust-ffi.git
+[submodule "modelica-rust-gdext"]
+	path = modelica-rust-gdext
+	url = https://github.com/bondlegend4/modelica-rust-gdext.git
+[submodule "space-modelica-components"]
+	path = space-modelica-components
+	url = https://github.com/bondlegend4/space-modelica-components.git
