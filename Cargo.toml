@@ -1,0 +1,15 @@
+[package]
+name = "godot-space-integration"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+godot = { path = "./modelica-rust-gdext/godot" }
+modelica-rust-ffi = { path = "./space-modelica-components/modelica-rust-ffi" }
+space-modelica-components = { path = "./space-modelica-components" }
+
+[build-dependencies]
+godot = { path = "./modelica-rust-gdext/godot" }
